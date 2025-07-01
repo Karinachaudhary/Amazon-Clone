@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url(LogoAm.png);
+    background-size: contain;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+.add-icon{
+   display: flex;
+   align-items: center;
+}
+/* box2 */
+.add-first{
+    color: #cccccc;
+    font-size: 0.80rem;
+    margin-left: 15px;
+}
+.add-sec{
+    font-size: 1rem;
+    margin-left: 4px;
+}
+/* box3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    /* background-color: orange; */
+    height: 40px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 5px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #FFFFFF;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.search-input{
+width: 100%;
+font-size: 1rem;
+border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color:#0F1111;
+    background-color: orange;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+/* box4 */
+.nav-language{
+    display: flex;
+    justify-content: center;
+select {
+  border: none;
+  background-color: #f3f3f3;
+  padding: 8px;
+  font-weight: bold;
+  color: #111;
+}
+}
+/* box5 */
+span{
+    font-size: 0.8rem;
+}
+Account{
+    font-size: 0.9rem;
+    font-weight: 700px;
+}
+/* box6 */
+span{
+    font-size: 0.8rem;
+}
+Return{
+    font-size: 0.9rem;
+    font-weight: 700px;
+}
+/* box7 */
+.nav-cart i{
+    font-size: 35px;
+}
+.nav-cart{
+    font-size: 1rem;
+    font-weight: 700px;
+}
+/* panel */
+.panel{
+   height: 40px;
+   background-color: #222f3d;
+   display: flex;
+   color: #ffffff;
+   align-items: center;
+   justify-content: space-evenly;
+}
+.panel-opt p{
+    display: inline;
+    margin-left: 10px;
+}
+.panel-opt{
+    width: 70%;
+    font-size: 0.8rem;
+}
+.panel.deals{
+    font-size: 1rem;
+    font-weight: 700px;
+}
+/* main */
+.main-section{
+    background-image: url(Amazon.jpg);
+    height: 20vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.main-message{
+    background-color: #f3f3f3;
+    color:#0F1111;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    width: 85%;
+}
+.main-message a {
+    color: #007185;
+    text-decoration: none;
+}
+/* box */
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: pink;
+}
+.box{
+    height: 400px;
+    width: 100%;
+    max-width: 300px;
+    /* border: 2px solid black; */
+    background-color: beige;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box-img{
+    height: 300px;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content a{
+    text-decoration: none;
+    color: #007185;
+}
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+.footpanel3{
+    background-color: #222f3d;
+    color: white;
+    border: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .logo {
+    background-image: url(LogoAm.PNG);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.footpanel4{
+    background-color: #0F1111;
+    color: white;
+    height: 100px;
+     font-size: 0.75rem;
+    text-align: center;
+}
+.pages{
+    padding-top: 25px;
+}
+.copyright{
+    padding-top: 5px;
+}
+@media (max-width: 768px) {
+    .navbar{
+        flex-wrap: wrap;
+    }
+    .shop{
+        flex-direction: column;
+    }
+    .box{
+        width: 90%;
+    }
+}
+@media (max-width: 500px){
+    .navbar{
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        padding: 10px;
+    }
+    .nav-search{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .nav-language,
+    .nav-cart{
+        font-size: 0.6rem;
+    }
+    .panel{
+        flex-wrap: wrap;
+        font-size: 0.7rem;
+        height: auto;
+        padding: 10px;
+    }
+    .panel-opt {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 0.7rem;
+    }
+    .main-message{
+        width: 95%;
+        font-size: 0.75rem;
+        text-align: center;
+        padding: 0.5rem;
+    }
+     .shop {
+        flex-direction: column;
+        align-items: center;
+    }
+     .box {
+        width: 90%;
+        margin: 10px 0;
+    }
+     .foot-panel2 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+    }
+}
+@media (min-width: 501px) and (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px 15px;
+  }
+
+  .nav-search {
+    width: 80%;
+    margin-top: 10px;
+  }
+
+  .shop {
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .box {
+    width: 45%; /* Two items per row */
+    margin: 10px;
+
+  }
+
+  .panel-opt {
+    font-size: 0.75rem;
+  }
+
+  .foot-panel2 {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 1180px) {
+    .navbar{
+    flex-wrap: wrap;
+    height: 6rem;
+}
+}
